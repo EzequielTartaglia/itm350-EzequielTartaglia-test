@@ -26,7 +26,7 @@
     "test:coverage": "jest --coverage",
     "github:add": "git add .",
     "github:commit": "git commit -m 'Double-commit'",
-    "github:push": "git push origin main && git push bym team",
+    "github:push": "git push origin main && git push team main",
     "github:changes-up": "npm run github:add && npm run github:commit && npm run github:push"
   }
 }
